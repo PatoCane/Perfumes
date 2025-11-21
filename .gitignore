@@ -1,0 +1,32 @@
+# Directorios Generales de Node
+# -----------------------------
+# Directorio de módulos de Node (muy grande y se reinstala con npm install)
+/node_modules
+
+# Archivos de caché y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.nyc_output/
+/logs/
+*.log
+
+# Archivos de configuración y build
+.DS_Store
+.vscode/
+
+# Seguridad y Variables de Entorno
+# -----------------------------
+# Archivo donde guardas tus variables de entorno locales (CLAVES SECRETAS)
+.env
+.env.local
+.env.*.local
+
+# Clave de Servicio de Firebase/Google (¡CRUCIAL!)
+# El archivo JSON que descargaste con tus credenciales. 
+# Si tu archivo se llama 'mi-proyecto-firebase-adminsdk-xxxxx-xxxxxxxx.json',
+# reemplaza la línea de abajo con ese nombre exacto.
+*.json
+
+# Ejemplo si el archivo JSON se llama serviceAccount.json:
+# serviceAccount.json
