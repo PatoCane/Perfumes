@@ -2,8 +2,8 @@
 
 import express from 'express';
 // Importa el router de perfumes
-//import perfumesRouter from './routes/perfumes.js'; 
-import perfumesRouter from '../Perfumes-Web/routes/perfumes.js'
+import perfumesRouter from './routes/perfumes.js'; 
+
 
 const app = express();
 const port = process.env.PORT || 3000;
